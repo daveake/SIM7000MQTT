@@ -1,10 +1,6 @@
 # GSM/GPS Tracker for TTGO SIM7000G Board #
 
-This system consists of 2 Raspberry Pi boards, one as a tracker with GSM/GPS board, and the other as a gateway with GSM modem.  The tracker gets its position from the GSM/GPS device, and sends it as text messages to your phone and the gateway.
-
-There are 2 Python 2 scripts, one for the tracker and one for the gateway, that together place the position of the tracker on the live HAB map (https://tracker.habhub.org).
-
-See my [blog post](http://www.daveakerman.com/?p=2324 "blog post") for more information.
+This is a GPS tracker that uploads its position to an MQTT broker by using a mobile phone modem to connect to the internet.  It is designed and tested on the TTGO SIM7000G board with an OLED added.
 
 # Tracker #
 
